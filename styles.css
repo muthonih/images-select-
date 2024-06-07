@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:pink;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-color: black;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #3498db;
+    color: black;
+}
+
+.instrument {
+    width: 100px;
+    height: auto;
+}
+
+.play-method {
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+
+.play-method:focus {
+    outline: none;
+    border-color:black;
+}
+
+.validation {
+    font-size: 20px;
+}
+
+.validation.correct::before {
+    content: '\2713'; /* Checkmark symbol */
+    color: green;
+}
+
+.validation.incorrect::before {
+    content: '\2717'; /* Cross symbol */
+    color: red;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: palegreen;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-color: black;
+}
+
+button:hover {
+    background-color: green;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instrument Matching Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Match the Instruments with How They are Played</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Instrument</th>
+                <th>How it is played</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="image1.png" alt="Shaker" class="instrument" data-match="Shaking"></td>
+                <td>
+                    <select class="play-method">
+                        <option value="Shaking">Shaking</option>
+                        <option value="Blowing">Blowing</option>
+                        <option value="Bowing">Bowing</option>
+                        <option value="Striking">Striking</option>
+                        <option value="Plucking">Plucking</option>
+                    </select>
+                    <span class="validation"></span>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="image2.png" alt="Flute" class="instrument" data-match="Blowing"></td>
+                <td>
+                    <select class="play-method">
+                        <option value="Shaking">Shaking</option>
+                        <option value="Blowing">Blowing</option>
+                        <option value="Bowing">Bowing</option>
+                        <option value="Striking">Striking</option>
+                        <option value="Plucking">Plucking</option>
+                    </select>
+                    <span class="validation"></span>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="image3.jpg" alt="Violin" class="instrument" data-match="Bowing"></td>
+                <td>
+                    <select class="play-method">
+                        <option value="Shaking">Shaking</option>
+                        <option value="Blowing">Blowing</option>
+                        <option value="Bowing">Bowing</option>
+                        <option value="Striking">Striking</option>
+                        <option value="Plucking">Plucking</option>
+                    </select>
+                    <span class="validation"></span>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="image4.png" alt="Drum" class="instrument" data-match="Striking"></td>
+                <td>
+                    <select class="play-method">
+                        <option value="Shaking">Shaking</option>
+                        <option value="Blowing">Blowing</option>
+                        <option value="Bowing">Bowing</option>
+                        <option value="Striking">Striking</option>
+                        <option value="Plucking">Plucking</option>
+                    </select>
+                    <span class="validation"></span>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="img5.png" alt="Guitar" class="instrument" data-match="Plucking"></td>
+                <td>
+                    <select class="play-method">
+                        <option value="Shaking">Shaking</option>
+                        <option value="Blowing">Blowing</option>
+                        <option value="Bowing">Bowing</option>
+                        <option value="Striking">Striking</option>
+                        <option value="Plucking">Plucking</option>
+                    </select>
+                    <span class="validation"></span>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="img6.png" alt="Trumpet" class="instrument" data-match="Blowing"></td>
+                <td>
+                    <select class="play-method">
+                        <option value="Shaking">Shaking</option>
+                        <option value="Blowing">Blowing</option>
+                        <option value="Bowing">Bowing</option>
+                        <option value="Striking">Striking</option>
+                        <option value="Plucking">Plucking</option>
+                    </select>
+                    <span class="validation"></span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <button id="submit">Submit</button>
+    <button id="redo">Redo</button>
+    <script src="script.js"></script>
+</body>
+</html>
